@@ -4,7 +4,7 @@
 
 def far_to_cels(far):
     try:
-        cels=(far-32)*5/9
+        cels=(int(far)-32)*5/9
     except TypeError:
         print("Please only use number digits")
     else:
